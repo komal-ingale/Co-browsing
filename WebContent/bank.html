@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>Goliath National Bank</title>
+<center>
+<br><br><br>
+<table width="75%" bgcolor="#0099FF">
+<tr>
+<td>
+
+</td>
+<td >
+<h1><font face="Broadway" size="+8" color="#000080"><center>Goliath National Bank</center></U></font></h1>
+<h3><font face="Papyrus" color="#FF0000"><center>Your Financial Wingman Arrives...</center></font></h3>
+</td>
+</table>
+</center>
+<h2><font face="Magneto" color="#C71585" size="+3"><marquee>WelCome To Goliath National Bank..! </marquee></font></h2>
+
+<script src="jQuery.js"></script>
+
+<script src="lib.js"> </script>
+</head>
+
+<body>
+<center>
+<table width="75%">
+<tr>
+<td><font face="Times New Roman" color="#191970"><B>
+<a href="bank.html" id='a'>Home</a></br>
+<a href="balance.html">Check Balance</a></br>
+<a href="newac.html">New Account</a></br>
+<a href="dep.html">Deposite</a></br>
+<a href="wd.html">Withdraw</a></br>
+<a href="mt.html">Money Transfer</a></br>
+<a href="help.html">Help</a></br>
+</B></td></font>
+<td>
+<font face="Stencil" color="#191970">
+We'll be on your side when you need a friend,</br>
+Through thick and thin you can always depend,</br>
+On the world leaders in credit and banking,</br>
+Goliath National Bank, Member FDIC</br>
+(not really)..</br>
+Enjoy Banking With Us...</font>
+</td>
+<td>
+<h3><font face="Times New Roman" color="#191970">Sign Up!</br>Please,fill the details..</font></h3>
+<form>
+<font face="Times New Roman" color="#191970">
+First Name:<input type="text" name="firstname"/></br>
+Last Name:<input type="text" name="lastname"/></br>
+
+<input type="radio" name="sex" value="Male"><label for="male">Male</label>
+<input type="radio" name="sex" value="Female"><label for="male">Female</label></br></br>
+
+<input type="checkbox" name="acc" value="saving"/>I have saving account.</br>
+<input type="checkbox" name="acc" value="current"/>I have current account.</br></br>
+User Name:<input type="text" name="user"></br>
+Password:<input type="password" name="pwd"/></br></br>
+
+
+<textarea rows="3" cols="30" name="textId">
+This the best banking website.. 
+All the rules and the regulations will definitely followed by me..
+</textarea></br>
+
+<input type="button" id="s" value="submit";></font>
+<script>
+$('#s').click(function(){console.log("hi");});
+$('#s').mouseover(function(){alert("hi");});
+
+$('#s').bind('click', function() {console.log('User clicked on Submit.');});
+
+function hello(){
+	alert('hello');
+}
+console.log(document.getElementById('s'));
+console.log($("#s").data());
+$._data( $('#s'), 'events' );
+</script>
+
+</form>
+</td>
+</tr>
+</table>
+</center>
+<font face="Lucida Handwriting" color="C71585" size="+3"><center><b>It is going to be legen... wait for it....</center></font>
+</body>
+</html>

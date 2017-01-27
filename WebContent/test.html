@@ -1,0 +1,26 @@
+
+
+<html>
+<head>
+<script>
+function hello(){
+	alert("hello");
+}
+</script>
+<script src="jQuery.js"></script>
+</head>
+<body>
+<h1>Welcome</h1>
+<input type="button" value="done" id="d">
+<input type="button" value="done2" id="d2" onclick="fire();">
+<script>
+$('#d').hover(function(){alert("hi");});
+
+function fire(){
+var evObj = document.createEvent('MouseEvents');
+evObj.initEvent( 'mouseover', true, false );
+document.getElementById("d2").dispatchEvent(evObj);
+}
+</script>
+</body>
+</html>
